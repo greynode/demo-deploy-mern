@@ -4,8 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",
-    "server": "nodemon app.js",
+    "start": "node app.js",
+    "server": "node app.js",
     "client": "npm start --prefix client",
    "test": "node node_modules/mocha/bin/mocha.js"
     "dev": "concurrently \"npm start\" \"npm run client\" "
